@@ -22,7 +22,7 @@ while True:
                 landmarks.append(lm.x)
                 landmarks.append(lm.y)
 
-            print(len(landmarks))  # Should print 42
+            print(len(landmarks))  
 
     cv2.imshow("Hand Tracking", img)
 
